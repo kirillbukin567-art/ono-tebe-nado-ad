@@ -20,7 +20,40 @@
 /* Шапка */
 
 .header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
   padding: 94px 50px 100px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 130px;
+}
+
+.header__logo-image {
+  display: block;
+}
+
+.header__address {
+  justify-self: end;
+  max-width: 236px;
 }
 
 /* Обложка */
