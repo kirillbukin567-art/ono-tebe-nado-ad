@@ -1,1 +1,53 @@
-/* место для вашего кода */
+/* Общие блоки */
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 240px;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.33;
+}
+
+/* Шапка */
+
+.header {
+  padding: 94px 50px 100px;
+}
+
+/* Обложка */
+
+.cover {
+  position: relative;
+  isolation: isolate;
+  min-height: 754px;
+  padding: 160px 50px 50px;
+  color: #ffffff;
+  background: url(../images/cover.jpg) center / cover no-repeat;
+}
+
+/* Лоты */
+
+.lots {
+  padding: 180px 23px 154px 25px;
+}
+
+/* Об аукционе */
+
+.about {
+  padding: 0 26px 100px 25px;
+}
+
+/* Подвал */
+
+.footer {
+  padding: 86px 50px 83px;
+}
